@@ -1,11 +1,4 @@
 # ACM Web Development Presentation
-This repository contains the [presentation code](https://github.com/dLopreiato/Webdev-Presentation/tree/gh-pages) (which is located on a different branch) and the demonstration code (which is located on this branch).
+This repository contains the code to the Resume Building with Web Dev presentation Drew Lopreiato presented on April 20th, 2016. The presentation can be found [here](https://docs.google.com/presentation/d/1e2PJQCZd7U3KcrM6nHGYaKNyXvz4NlFV7pBPfclx4ZU/edit?usp=sharing).
 
-# Contributing
-This project is not taking contributions at this time.
-
-# Presentation Date
-The date for this presentation has not yet been set. But will occur on some Wednesday in the Spring 2016 between 7pm and 8pm in 222 IST on Penn State's Campus.
-
-# Technologies Used
-The presentation is built on [reveal.js](https://github.com/hakimel/reveal.js), while the demonstration is built on a standard XAMP stack.
+Check out the live build at [my website](http://lopreiato.us/blazed/link.html?id=5646daef-0729-11e6-b64c-e03f49aff667).

@@ -1,0 +1,12 @@
+ - Fix The Null Names in link.html
+ - Build score.html
+   - Display User Score
+   - Give Box/button to Enter Name
+   - Display sendable link
+ - Build Rename.php
+   - Should take a string and a uid, and update the uid only if it's name is currently null
+ - Build GetStats.php
+   - Should take a uid and return the persons score, the total people affected because of them, and their name
+ - Build score-ajax.js
+   - Display the information returned by GetStats.php
+   - Use functionality of Rename.php to let a user rename themselves if their name is currently null
