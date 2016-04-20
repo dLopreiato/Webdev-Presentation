@@ -75,10 +75,13 @@ function CalculateSenderScore($dbConn, $uid, $level) {
         echo json_encode(array('error' => $dbConn->error));
         exit();
     }
-    $allChildren = $allChildrenResults->fetch_all();
+    $allChildren = array();
+    while ($row = $allChildrenResults->fetch_assoc()) {
+        $allChildren[] = $row['uid'];
+    }
     $senderSum = 0;
     foreach ($allChildren as $childUid) {
-        $senderSum += $level + CalculateSenderScore($dbConn, $childUid[0], $level - 1);
+        $senderSum += $level + CalculateSenderScore($dbConn, $childUid, $level - 1);
     }
     return $senderSum;
 
