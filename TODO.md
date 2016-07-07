@@ -10,3 +10,6 @@
  - Build score-ajax.js
    - Display the information returned by GetStats.php
    - Use functionality of Rename.php to let a user rename themselves if their name is currently null
+ - Optimize Score Calculation
+   - Rather than calculating the score every time a user visits the score page, add a score attribute to users and recurse up parents (should only occur once) and update scores then
+   - Change CalculateSenderScore in SpreadBlaze.php to generate a select query for the score attribute
